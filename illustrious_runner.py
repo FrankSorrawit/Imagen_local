@@ -19,7 +19,7 @@ import cv2
 import numpy as np
 
 class IllustriousXLRunner:
-    def __init__(self, base_model_path="./models/Illustrious-XL-v2.0", model_folder="D:/Side project/man Dream/Model"):
+    def __init__(self, base_model_path="./models/Illustrious-XL-v2.0", model_folder="D:/Image_gen/Model"):
         self.base_model_path = base_model_path
         self.model_folder = Path(model_folder)
         self.txt2img_pipe = None
@@ -526,7 +526,7 @@ def create_gradio_interface():
             gr.Markdown("""
             ### 📁 Model Folder Structure:
             ```
-            D:/Side project/man Dream/Model/
+            D:/Image_gen/Model/
             ├── base_models/
             │   └── your_model.safetensors
             ├── lora/
