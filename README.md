@@ -66,7 +66,7 @@ pip install -r requirements.txt
 
 6. **Create model directory structure**
 ```
-D:/Side project/man Dream/Model/
+D:/Image_gen/Model/
 ├── base_models/
 │   └── your_model.safetensors
 ├── lora/
@@ -124,7 +124,7 @@ Model/
 Edit the model path in `illustrious_runner.py`:
 ```python
 runner = IllustriousXLRunner(
-    model_folder="D:/Side project/man Dream/Model"  # Change this path
+    model_folder="D:Image_gen/Model"  # Change this path
 )
 ```
 
