@@ -1,0 +1,11 @@
+# สร้าง .gitignore
+echo "*.pyc
+__pycache__/
+*.log
+models/
+Model/
+outputs/
+illustrious_env/
+New folder/
+*.tmp
+.env" > .gitignore
