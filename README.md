@@ -61,7 +61,7 @@ pip install -r requirements.txt
 ```
 
 5. **Download base model**
-- Download Illustrious-XL-v2.0 from [Hugging Face](https://huggingface.co/OnomaAIResearch/Illustrious-XL-v2.0)
+- Download Illustrious-XL-v2.0 from [Hugging Face](https://huggingface.co/OnomaAIResearch/Illustrious-XL-v2.0) or [Direct link](https://huggingface.co/OnomaAIResearch/Illustrious-XL-v2.0/resolve/main/Illustrious-XL-v2.0.safetensors?download=true)
 - Place in `./models/Illustrious-XL-v2.0/` folder
 
 6. **Create model directory structure**
