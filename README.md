@@ -61,12 +61,12 @@ pip install -r requirements.txt
 ```
 
 5. **Download base model**
-- Download Illustrious-XL-v2.0 from [Hugging Face](https://huggingface.co/OnomaAI/Illustrious-XL-v2.0)
+- Download Illustrious-XL-v2.0 from [Hugging Face](https://huggingface.co/OnomaAIResearch/Illustrious-XL-v2.0) or [Direct link](https://huggingface.co/OnomaAIResearch/Illustrious-XL-v2.0/resolve/main/Illustrious-XL-v2.0.safetensors?download=true)
 - Place in `./models/Illustrious-XL-v2.0/` folder
 
 6. **Create model directory structure**
 ```
-D:/Side project/man Dream/Model/
+D:/Image_gen/Model/
 ├── base_models/
 │   └── your_model.safetensors
 ├── lora/
@@ -124,7 +124,7 @@ Model/
 Edit the model path in `illustrious_runner.py`:
 ```python
 runner = IllustriousXLRunner(
-    model_folder="D:/Side project/man Dream/Model"  # Change this path
+    model_folder="D:Image_gen/Model"  # Change this path
 )
 ```
 
